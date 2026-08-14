@@ -1,0 +1,69 @@
+{
+  "projectType": "saas",
+  "projectName": "SEC Football 2026",
+  "projectDescription": "A fan-facing web app for tracking the 2026 SEC football season — including team schedules, live countdown timers, standings, and SEC Championship Game details for all 16 conference teams.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "getting-started"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/team-schedules",
+              "features/standings",
+              "features/championship",
+              "features/countdowns",
+              "features/tickets"
+            ]
+          },
+          {
+            "group": "Teams",
+            "pages": [
+              "teams/overview",
+              "teams/east-division",
+              "teams/west-division"
+            ]
+          },
+          {
+            "group": "Season Info",
+            "pages": [
+              "season/schedule-format",
+              "season/championship-game",
+              "season/tv-networks"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Per-team schedule viewer with 13-game full season cards",
+    "Live countdown to season opener and individual game kickoffs",
+    "Conference standings table for all 16 SEC teams",
+    "SEC Championship Game details and recent champions history",
+    "Dynamic team color theming for all 16 schools",
+    "One-tap ticket search via SeatGeek",
+    "Mobile-first PWA with iOS safe area support",
+    "Home/away/conference game labels and TV network info"
+  ],
+  "publicApiSurface": [
+    "Team schedule data for all 16 SEC teams (Alabama, Arkansas, Auburn, Florida, Georgia, Kentucky, LSU, Mississippi State, Missouri, Oklahoma, Ole Miss, South Carolina, Tennessee, Texas, Texas A&M, Vanderbilt)",
+    "Game card fields: week, date, away team, home team, conf flag, kickoff time (ET), result status, TV network",
+    "Standings fields: team name, wins, losses, conference wins, conference losses",
+    "Championship info: date (Dec 5 2026), venue (Mercedes-Benz Stadium), location (Atlanta GA), TV (CBS), kickoff (4:00 PM ET)",
+    "Ticket search integration via SeatGeek URL",
+    "Team color palette: primary and secondary hex per school"
+  ]
+}
