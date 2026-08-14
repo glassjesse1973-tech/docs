@@ -33,9 +33,7 @@
           {
             "group": "Teams",
             "pages": [
-              "teams/overview",
-              "teams/east-division",
-              "teams/west-division"
+              "teams/overview"
             ]
           },
           {
